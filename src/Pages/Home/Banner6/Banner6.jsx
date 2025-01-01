@@ -6,64 +6,66 @@ import img9 from '../../../assets/Image/img9.jpg';
 
 const Banner6 = () => {
   return (
-    <div className="bg-white p-8 text-gray-700">
-      <div className="text-center max-w-4xl mx-auto mb-12">
-        <h2 className="text-3xl font-semibold text-black mb-2">Smart Switch Features</h2>
-        <p className="text-lg text-gray-600">
+    <div id='Feature' className="p-4 md:p-8 text-gray-700" style={{ background: "linear-gradient(to right, black, green)" }}>
+      {/* Header Section */}
+      <div className="text-center max-w-4xl mx-auto mb-8 md:mb-12">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-2">Smart Switch Features</h2>
+        <p className="text-sm md:text-lg lg:text-lg text-gray-200 leading-relaxed">
           Smart switches are a great way to add convenience and security to your home. With a smart switch, you can control your lights and appliances from anywhere, using your smartphone or voice assistant. You can also create schedules and automations to make your life easier.
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center max-w-5xl mx-auto">
-        
-        {/* Left Features */}
-        <div className="flex flex-col space-y-8 w-full md:w-1/3">
+      {/* Main Content Section */}
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+
+        {/* Left Features Section */}
+        <div className="flex flex-col space-y-6 md:w-1/2 lg:w-1/3">
           <div className="text-center">
-            <FaRocket className="text-2xl text-green-600 mx-auto mb-2" />
-            <h3 className="text-xl font-semibold text-black">Remote Access</h3>
-            <p className="text-gray-600">Control your STATA switch from any place around the world!</p>
+            <FaRocket className="text-2xl md:text-3xl text-white mx-auto mb-2" />
+            <h3 className="text-lg md:text-xl font-semibold text-white">Remote Access</h3>
+            <p className="text-sm md:text-gray-200">Control your STATA switch from any place around the world!</p>
           </div>
 
           <div className="text-center">
-            <FaLock className="text-2xl text-green-600 mx-auto mb-2" />
-            <h3 className="text-xl font-semibold text-black">Touch Control</h3>
-            <p className="text-gray-600">Experience modern elegance and effortless functionality with our Touch Control switch technology.</p>
+            <FaLock className="text-2xl md:text-3xl text-white mx-auto mb-2" />
+            <h3 className="text-lg md:text-xl font-semibold text-white">Touch Control</h3>
+            <p className="text-sm md:text-gray-200">Experience modern elegance and effortless functionality with our Touch Control switch technology.</p>
           </div>
 
           <div className="text-center">
-            <FaMicrochip className="text-2xl text-green-600 mx-auto mb-2" />
-            <h3 className="text-xl font-semibold text-black">Voice Control</h3>
-            <p className="text-gray-600">All our switches are compatible with Google Home and Amazon Alexa Voice Assistant.</p>
+            <FaMicrochip className="text-2xl md:text-3xl text-white mx-auto mb-2" />
+            <h3 className="text-lg md:text-xl font-semibold text-white">Voice Control</h3>
+            <p className="text-sm md:text-gray-200">All our switches are compatible with Google Home and Amazon Alexa Voice Assistant.</p>
           </div>
         </div>
 
-        {/* Center Image */}
-        <div className="w-full md:w-1/3 p-4 flex justify-center">
+        {/* Center Image Section */}
+        <div className="w-full md:w-1/2 lg:w-1/2 p-2 flex justify-center">
           <img
-            src={img9} // Update with the correct path for your image
+            src={img9}
             alt="Smart Switch"
-            className="max-w-full h-auto rounded-lg shadow-lg"
+            className="max-w-sm md:max-w-lg h-auto rounded-lg shadow-lg"
           />
         </div>
 
-        {/* Right Features */}
-        <div className="flex flex-col space-y-8 w-full md:w-1/3">
+        {/* Right Features Section */}
+        <div className="flex flex-col space-y-6 md:w-1/2 lg:w-1/3">
           <div className="text-center">
-            <AiOutlineMobile className="text-2xl text-green-600 mx-auto mb-2" />
-            <h3 className="text-xl font-semibold text-black">StataLife App Control</h3>
-            <p className="text-gray-600">Transform your living space into a hub of convenience and innovation with StataLife smarthome App Control.</p>
+            <AiOutlineMobile className="text-2xl md:text-3xl text-white mx-auto mb-2" />
+            <h3 className="text-lg md:text-xl font-semibold text-white">StataLife App Control</h3>
+            <p className="text-sm md:text-gray-200">Transform your living space into a hub of convenience and innovation with StataLife smarthome App Control.</p>
           </div>
 
           <div className="text-center">
-            <BsClockHistory className="text-2xl text-green-600 mx-auto mb-2" />
-            <h3 className="text-xl font-semibold text-black">Set Timer</h3>
-            <p className="text-gray-600">Set a timer on your switch to automate your lights and save energy.</p>
+            <BsClockHistory className="text-2xl md:text-3xl text-white mx-auto mb-2" />
+            <h3 className="text-lg md:text-xl font-semibold text-white">Set Timer</h3>
+            <p className="text-sm md:text-gray-200">Set a timer on your switch to automate your lights and save energy.</p>
           </div>
 
           <div className="text-center">
-            <FaCalendarAlt className="text-2xl text-green-600 mx-auto mb-2" />
-            <h3 className="text-xl font-semibold text-black">Set Schedule & Routine</h3>
-            <p className="text-gray-600">Easily schedule device usage by setting a timer on your switch for added convenience.</p>
+            <FaCalendarAlt className="text-2xl md:text-3xl text-white mx-auto mb-2" />
+            <h3 className="text-lg md:text-xl font-semibold text-white">Set Schedule & Routine</h3>
+            <p className="text-sm md:text-gray-200">Easily schedule device usage by setting a timer on your switch for added convenience.</p>
           </div>
         </div>
       </div>
@@ -71,4 +73,4 @@ const Banner6 = () => {
   );
 };
 
-export default Banner6;
+export default Banner6;

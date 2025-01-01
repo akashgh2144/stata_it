@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../../assets/Image/logo.jpeg';
+import { navdata } from '../../../Utils/navlink';
+import { Link } from 'react-router-dom';
 
 const Navber = () => {
     return (
@@ -18,16 +20,19 @@ const Navber = () => {
 
         {/* Navbar Links */}
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-gray-200 hover:text-green-300">
+
+          {navdata.map(item=> <Link to={item.path}key={item.title}>{item.title}</Link>)}
+          
+        {/* <a href="#" className="text-gray-200 hover:text-green-300 nav-link">
             Home
           </a>
           <a href="#" className="text-gray-200 hover:text-green-300">
             Shop
-          </a>
-          <a href="#" className="text-gray-200 hover:text-green-300">
+          </a>  
+          <a href="#Feature" className="text-gray-200 hover:text-green-300">
             Features
           </a>
-          <a href="#" className="text-gray-200 hover:text-green-300">
+          <a href="#Support" className="text-gray-200 hover:text-green-300">
             Support
           </a>
           <a href="#" className="text-gray-200 hover:text-green-300">
@@ -41,7 +46,7 @@ const Navber = () => {
           </a>
           <a href="#" className="text-gray-200 hover:text-green-300">
             Industry/Office Automation
-          </a>
+          </a> */}
         </div>
 
         {/* Call to Action Button */}
@@ -81,4 +86,4 @@ const Navber = () => {
     );
 };
 
-export default Navber;
+export default Navber;

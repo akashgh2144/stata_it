@@ -7,10 +7,9 @@ import img7 from '../../../assets/Image/img7.jpg';
 import img8 from '../../../assets/Image/img8.jpg';
 
 const Banner5 = () => {
- 
   const [selectedItem, setSelectedItem] = useState({
     title: "",
-    imgSrc: img8, 
+    imgSrc: img8,
   });
 
   // Data for each item
@@ -42,17 +41,14 @@ const Banner5 = () => {
     },
   ];
 
-  
   const handleItemHover = (item) => {
     setSelectedItem(item);
   };
 
   return (
-    <div className="bg-gray-100 p-8 font-sans">
-     
+    <div className="bg-gradient-to-r from-green-500 to-black p-8 font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
-        
-        
+        {/* Left Section */}
         <div className="w-full md:w-1/2 p-4">
           <div className="relative">
             <img 
@@ -71,7 +67,7 @@ const Banner5 = () => {
           </div>
         </div>
 
-      
+        {/* Right Section */}
         <div className="w-full md:w-1/2 p-4">
           <ul className="space-y-4">
             {items.map((item, index) => (
@@ -82,7 +78,7 @@ const Banner5 = () => {
               >
                 <span className="font-bold text-xl mr-4">{String(index + 1).padStart(2, '0')}</span>
                 <div>
-                  <p className="font-bold bg-gradient-to-r from-green-500 to-black text-transparent bg-clip-text">
+                  <p className="font-bold ">
                     {item.text} 
                   </p>
                   {index < 4 && <hr className="my-2 border-gray-300" />}
@@ -92,10 +88,8 @@ const Banner5 = () => {
           </ul>
         </div>
       </div>
-
-     
     </div>
   );
 };
 
-export default Banner5;
+export default Banner5;

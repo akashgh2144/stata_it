@@ -7,6 +7,7 @@ import Banner5 from '../Banner5/Banner5';
 import Banner6 from '../Banner6/Banner6';
 import Banner7 from '../Banner7/Banner7';
 import Banner8 from '../Banner8/Banner8';
+import Banner9 from '../Home9/Home9';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Banner6></Banner6>
             <Banner7></Banner7>
             <Banner8></Banner8>
+            <Banner9></Banner9>
         </div>
     );
 };

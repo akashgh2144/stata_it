@@ -5,7 +5,7 @@ import img1 from "../../../assets/Image/img1.jpg";
 
 const ProductCard = ({ image, title, subtitle }) => (
   <motion.div
-    className="bg-gray-900 border border-green-500 p-6 rounded-lg shadow-lg transform transition-all hover:scale-105 hover:shadow-xl"
+    className="bg-gray-900 border border-green-500 p-6 rounded-lg shadow-lg transform transition-all hover:scale-105 hover:shadow-xl flex-shrink-0 w-64"
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5 }}
@@ -44,6 +44,16 @@ const ProductGrid = () => {
       title: "5-Pin Multi Socket",
       subtitle: "Multiple connections with safety",
     },
+    {
+      image: img1,
+      title: "5-Pin Multi Socket",
+      subtitle: "Multiple connections with safety",
+    },
+    {
+      image: img1,
+      title: "5-Pin Multi Socket",
+      subtitle: "Multiple connections with safety",
+    },
   ];
 
   return (
@@ -56,10 +66,13 @@ const ProductGrid = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 px-4 mt-10">
-        {products.map((product, index) => (
-          <ProductCard key={index} {...product} />
-        ))}
+      {/* Horizontal Scroll Container */}
+      <div className="overflow-x-auto whitespace-nowrap px-4 mt-10">
+        <div className="flex gap-6">
+          {products.map((product, index) => (
+            <ProductCard key={index} {...product} />
+          ))}
+        </div>
       </div>
     </div>
   );
