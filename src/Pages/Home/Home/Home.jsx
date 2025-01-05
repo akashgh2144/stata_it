@@ -8,19 +8,42 @@ import Banner6 from '../Banner6/Banner6';
 import Banner7 from '../Banner7/Banner7';
 import Banner8 from '../Banner8/Banner8';
 import Banner9 from '../Home9/Home9';
+import Unlocksystem from '../UnlockSystem/Unlocksystem';
 
 const Home = () => {
     return (
-        <div>
-            <Banner></Banner>
-            <Banner2></Banner2>
-            <Banner3></Banner3>
-            <Banner4></Banner4>
-            <Banner5></Banner5>
-            <Banner6></Banner6>
-            <Banner7></Banner7>
-            <Banner8></Banner8>
-            <Banner9></Banner9>
+        <div className="space-y-10"> {/* Adds vertical spacing between all children */}
+            <div className="mt-4">
+                <Banner />
+            </div>
+            <div>
+                <Banner2 />
+            </div>
+            <div>
+                <Banner3 />
+            </div>
+            <div>
+                <Banner4 />
+            </div>
+            <div>
+                <Banner5 />
+            </div>
+            <div>
+                <Banner6 />
+            </div>
+            <div>
+                <Banner7 />
+            </div>
+            <div >
+                <Unlocksystem />
+            </div>
+            <div>
+                <Banner8 />
+            </div>
+            <div>
+                <Banner9 />
+            </div>
+          
         </div>
     );
 };

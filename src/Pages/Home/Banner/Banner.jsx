@@ -1,12 +1,15 @@
 import React from 'react';
-import banner from '../../../assets/Image/banner.png';
+import before from '../../../assets/Image/images/bg/before.jpg';
+import Banner2 from '../../../assets/Image/images/bg/Banner2.jpg';
+import Bannerpic3 from '../../../assets/Image/images/bg/Bannerpic3.jpg';
+import after from '../../../assets/Image/images/bg/after.jpg';
 
 const Banner = () => {
   return (
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative w-full">
         <img
-          src={banner} // Use the imported banner variable directly
+          src={before} // Use the imported banner variable directly
           className="w-full"
           alt="Banner Slide 1"
         />
@@ -17,7 +20,7 @@ const Banner = () => {
       </div>
       <div id="slide2" className="carousel-item relative w-full">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+          src={Banner2}
           className="w-full"
           alt="Banner Slide 2"
         />
@@ -28,7 +31,7 @@ const Banner = () => {
       </div>
       <div id="slide3" className="carousel-item relative w-full">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+          src={Bannerpic3}
           className="w-full"
           alt="Banner Slide 3"
         />
@@ -39,7 +42,7 @@ const Banner = () => {
       </div>
       <div id="slide4" className="carousel-item relative w-full">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+          src={after}
           className="w-full"
           alt="Banner Slide 4"
         />

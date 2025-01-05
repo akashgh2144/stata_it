@@ -1,7 +1,13 @@
 // ProductGrid.js
 import React from "react";
 import { motion } from "framer-motion";
-import img1 from "../../../assets/Image/img1.jpg";
+import pc1 from '../../../assets/Image/images/device/pc1.png';
+import pc2 from '../../../assets/Image/images/device/pc2.png';
+import pc3 from '../../../assets/Image/images/device/pc3.png';
+import pc4 from '../../../assets/Image/images/device/pc4.png';
+import pc5 from '../../../assets/Image/images/device/pc5.png';
+import pc6 from '../../../assets/Image/images/device/pc6.png';
+import pc7 from '../../../assets/Image/images/device/pc7.png';
 
 const ProductCard = ({ image, title, subtitle }) => (
   <motion.div
@@ -13,46 +19,46 @@ const ProductCard = ({ image, title, subtitle }) => (
   >
     <img src={image} alt={title} className="w-full h-40 object-cover rounded-lg mb-4" />
     <h2 className="text-green-500 text-lg font-semibold">{title}</h2>
-    <p className="text-gray-400 mt-2">{subtitle}</p>
+    <p className="text-white text-sm mt-2">{subtitle}</p>
   </motion.div>
 );
 
 const ProductGrid = () => {
   const products = [
     {
-      image: img1,
+      image: pc1,
       title: "Smart Bulb 10 W",
       subtitle: "Adjustable color and brightness",
     },
     {
-      image: img1,
+      image: pc2,
       title: "Smart Security Lock",
       subtitle: "Secure access with remote control",
     },
     {
-      image: img1,
+      image: pc3,
       title: "Smart Switch",
-      subtitle: "Control appliances from your phone",
+      subtitle:"Control appliances from your phone",
     },
     {
-      image: img1,
+      image: pc4,
       title: "Smart Video Door Bell",
-      subtitle: "Monitor your door remotely",
+      subtitle:"Monitor your door remotely",
     },
     {
-      image: img1,
+      image: pc5,
       title: "5-Pin Multi Socket",
-      subtitle: "Multiple connections with safety",
+      subtitle:"Multiple connections with safety",
     },
     {
-      image: img1,
+      image: pc6,
       title: "5-Pin Multi Socket",
-      subtitle: "Multiple connections with safety",
+      subtitle:"Multiple connections with safety",
     },
     {
-      image: img1,
+      image: pc7,
       title: "5-Pin Multi Socket",
-      subtitle: "Multiple connections with safety",
+      subtitle:"Multiple connections with safety",
     },
   ];
 

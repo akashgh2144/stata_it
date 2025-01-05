@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner9 = () => {
   return (
-    <div  id="Support" className="min-h-screen flex flex-col items-center justify-center bg-green-500 to-black gap-4">
+    <div  id="Support" className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-black to-green-700  gap-4">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold mb-2 text-black">Get in Touch</h1>
         <p className="text-gray-100">
