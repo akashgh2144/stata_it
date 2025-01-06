@@ -6,7 +6,7 @@ import img9 from '../../../assets/Image/img9.jpg';
 
 const Banner6 = () => {
   return (
-    <div id='Feature' className="p-4 md:p-8 text-gray-700" style={{ background: "linear-gradient(to right, black, green)" }}>
+    <div id='features' className="p-4 md:p-8 text-gray-700" style={{ background: "linear-gradient(to right, black, green)" }}>
       {/* Header Section */}
       <div className="text-center max-w-4xl mx-auto mb-8 md:mb-12">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-2">Smart Switch Features</h2>

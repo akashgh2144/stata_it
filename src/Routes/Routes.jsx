@@ -19,7 +19,11 @@ const router = createBrowserRouter([
         {
           path:'/home-automation',
           element:<Hotel></Hotel>
-      }
+      },
+        {
+          path:'/#Support',
+          element:<Hotel></Hotel>
+      },
       ]
     },
   ]);
