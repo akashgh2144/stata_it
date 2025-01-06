@@ -18,13 +18,13 @@ const Navbar = () => {
         {/* Navbar Links for Desktop */}
         <div className="hidden md:flex space-x-6">
           {navdata.map((item) => (
-            <Link
-              to={item.path}
-              key={item.title}
-              className="text-gray-200 hover:text-green-300"
-            >
-              {item.title}
-            </Link>
+         item.route?   <Link
+         to={item.path}
+         key={item.title}
+         className="text-gray-200 hover:text-green-300"
+       >
+         {item.title}
+       </Link>: <a href={item.path}>{item.title}</a>
           ))}
         </div>
 

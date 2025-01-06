@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import HeroParallax from "./HeroParallax";
-
+import pic2 from '../assets/Image/images/set-up/pic2.jpg'
 export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "../assets/Image/images/set-up/pic2.jpg",
+      pic2,
   },
   {
     title: "Cursor",

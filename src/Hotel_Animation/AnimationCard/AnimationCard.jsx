@@ -26,10 +26,13 @@ const cardVariants = {
 
 export default function ScrollTriggered() {
     return (
-        <div style={container}>
+        <div style={contianer_main}>
+
+<div style={container}>
             {images.map(([src, hueA, hueB], i) => (
                 <Card i={i} src={src} hueA={hueA} hueB={hueB} key={src} />
             ))}
+        </div>
         </div>
     );
 }
@@ -58,14 +61,18 @@ const hue = (h) => `hsl(${h}, 100%, 50%)`;
 /**
  * ==============   Styles   ================
  */
-
-const container = {
-    margin: "100px auto",
-    maxWidth: 500,
+const contianer_main = {
+    
+    maxWidth: "100%",
     paddingBottom: 100,
     width: "100%",
     background: "linear-gradient(to bottom, black, green)", // Black to green gradient
     paddingTop: 50,
+};
+const container = {
+    
+    maxWidth: 700,
+    margin: "100px auto",
 };
 
 const cardContainer = {
@@ -89,7 +96,7 @@ const splash = {
 
 const card = {
     fontSize: 164,
-    width: 300,
+    width: 330,
     height: 430,
     display: "flex",
     justifyContent: "center",
