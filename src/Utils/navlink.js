@@ -8,4 +8,4 @@ export const navdata = [
     { title: 'Hotel Automation', path: '/hotel-automation' },
     { title: 'Industry/Office Automation', path: '/industry-office-automation' }
   ];
-  
+  []

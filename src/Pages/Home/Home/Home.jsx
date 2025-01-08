@@ -9,6 +9,8 @@ import Banner7 from '../Banner7/Banner7';
 import Banner8 from '../Banner8/Banner8';
 import Banner9 from '../Home9/Home9';
 import Unlocksystem from '../UnlockSystem/Unlocksystem';
+import BannerHero from '../../../components/BannerHero';
+import AnimationCard from '../../../Hotel_Animation/AnimationCard/AnimationCard'
 
 const Home = () => {
     return (
@@ -20,7 +22,7 @@ const Home = () => {
                 <Banner2 />
             </div>
             <div>
-                <Banner3 />
+                <BannerHero/>
             </div>
             <div>
                 <Banner4 />
@@ -35,7 +37,7 @@ const Home = () => {
                 <Banner7 />
             </div>
             <div >
-                <Unlocksystem />
+              <AnimationCard/>
             </div>
             <div>
                 <Banner8 />
