@@ -28,7 +28,7 @@ export function FocusCards({ cards }) {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <div className="w-full bg-gradient-to-r from-black via-blue-500 to-green-500 opacity-50"> {/* Overall background color added here */}
+    <div className="w-full bg-gradient-to-r from-black via-blue-500 to-green-500 opacity-80"> {/* Overall background color added here */}
       <h1 className="text-3xl text-center mb-6 font-bold text-green-500">Hotel Features</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto md:px-8 w-full">
         {cards.map((card, index) => (

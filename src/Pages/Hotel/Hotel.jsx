@@ -8,6 +8,8 @@ import Unlocksystem from '../Home/UnlockSystem/Unlocksystem';
 import { BackgroundLinesDemo } from '../../SmartHotelBanner/BackgroundLines';
 import { FocusCardsDemo } from '../../FocusCard/FocusCardsDemo';
 import { CompareDemo } from '../../CompareDemo/CompareDemo';
+import { ParallaxScroll } from '../../ParallaxScroll/ParallaxScroll';
+
 const Hotel = () => {
     return (
         <div className="space-y-10">
@@ -16,6 +18,7 @@ const Hotel = () => {
            <FocusCardsDemo></FocusCardsDemo>
            {/* <AnimatedCard></AnimatedCard> */}
            <CompareDemo></CompareDemo>
+          <ParallaxScroll></ParallaxScroll>
            <Banner3></Banner3>
            <Unlocksystem></Unlocksystem>
           
