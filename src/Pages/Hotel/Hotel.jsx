@@ -7,6 +7,7 @@ import Banner3 from '../Home/Banner3/Banner3';
 import Unlocksystem from '../Home/UnlockSystem/Unlocksystem';
 import { BackgroundLinesDemo } from '../../SmartHotelBanner/BackgroundLines';
 import { FocusCardsDemo } from '../../FocusCard/FocusCardsDemo';
+import { CompareDemo } from '../../CompareDemo/CompareDemo';
 const Hotel = () => {
     return (
         <div className="space-y-10">
@@ -14,6 +15,7 @@ const Hotel = () => {
            {/* <HotelBanner></HotelBanner> */}
            <FocusCardsDemo></FocusCardsDemo>
            {/* <AnimatedCard></AnimatedCard> */}
+           <CompareDemo></CompareDemo>
            <Banner3></Banner3>
            <Unlocksystem></Unlocksystem>
           
