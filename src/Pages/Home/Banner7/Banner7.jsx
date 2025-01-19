@@ -26,10 +26,10 @@ const Banner7 = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-green-600 to-black py-12 px-4 text-center"> {/* Green to black gradient */}
+    <div className="bg-gradient-to-b from-green-600 justify-center items-center to-black py-12 px-4 text-center"> {/* Green to black gradient */}
       <h2 className="text-2xl font-semibold text-white mb-8">OUR HAPPY CUSTOMER</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mb-6 justify-center items-center">
         {visibleBrands.map((brand, index) => (
           <div
             key={index}

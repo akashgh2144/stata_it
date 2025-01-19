@@ -8,7 +8,7 @@ const Banner4 = () => {
     const rotate = useTransform(time, [0, 4000], [0, 360], { clamp: false });
 
     return (
-        <div className="relative flex items-center justify-center h-screen text-white" style={{ background: 'linear-gradient(to right, #000000, #004d00)' }}>
+        <div className="relative h-[700px] flex items-center justify-center  text-white" style={{ background: 'linear-gradient(to right, #000000, #004d00)' }}>
             <div className="flex items-center space-x-10">
                 
                

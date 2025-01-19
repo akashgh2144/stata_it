@@ -4,12 +4,12 @@ const Banner9 = () => {
   return (
     <div  id="Support" className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-black to-green-700  gap-4">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold mb-2 text-black">Get in Touch</h1>
+        <h1 className="text-4xl font-bold mb-2 text-white">Get in Touch</h1>
         <p className="text-gray-100">
           Feel free to reach out to us anytime – your questions and feedback are always welcome!
         </p>
       </div>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 gap-14">
         <div className="flex flex-wrap lg:flex-nowrap bg-white shadow-lg rounded-lg">
           {/* Map Section */}
           <div className="w-full lg:w-1/2 h-96">

@@ -78,6 +78,30 @@ export const products = [
     thumbnail:
      pic9,
   },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+      pic8,
+  },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+      pic3,
+  },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+      pic4,
+  },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+  }
   // Add the rest of your products here...
 ];
 

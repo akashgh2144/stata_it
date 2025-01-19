@@ -5,7 +5,7 @@ import img2 from '../../../assets/Image/img2.png';
 const Banner3 = () => {
     return (
         <div
-            className="relative bg-cover bg-center h-screen flex flex-col items-center justify-center text-center overflow-hidden"
+            className="relative bg-cover bg-center h-[700px] flex flex-col items-center justify-center text-center overflow-hidden"
             style={{
                 backgroundImage: `url(${img2})`,
             }}

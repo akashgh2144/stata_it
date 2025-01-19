@@ -20,7 +20,7 @@ export function CompareDemo() {
           className="w-full h-full rounded-[22px] md:rounded-lg"
           slideMode="hover"
           autoplay={true}
-          autoplaySpeed={3000} // Adjust speed as needed
+          autoplaySpeed={7000} // Adjust speed as needed
         />
       </div>
     </div>

@@ -60,6 +60,26 @@ const ProductGrid = () => {
       title: "5-Pin Multi Socket",
       subtitle:"Multiple connections with safety",
     },
+    {
+      image: pc1,
+      title: "Smart Bulb 10 W",
+      subtitle: "Adjustable color and brightness",
+    },
+    {
+      image: pc2,
+      title: "Smart Security Lock",
+      subtitle: "Secure access with remote control",
+    },
+    {
+      image: pc5,
+      title: "5-Pin Multi Socket",
+      subtitle:"Multiple connections with safety",
+    },
+    {
+      image: pc6,
+      title: "5-Pin Multi Socket",
+      subtitle:"Multiple connections with safety",
+    },
   ];
 
   return (
